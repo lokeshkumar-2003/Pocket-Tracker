@@ -1,0 +1,73 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000039;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%; /* Fixed width of the card */
+  height: 450px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imageContainer {
+  flex: 1;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userName {
+  text-transform: capitalize;
+  color: #fff; /* White text color */
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-top: 10px; /* Add some space between the image and the name */
+  text-align: center; /* Center the text */
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 5px 0 20px 0;
+}
+
+.statsContainer {
+  flex: 2; /* Takes 2/3 of the card height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+li span {
+  font-size: 19px;
+  color: #fff;
+}

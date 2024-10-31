@@ -1,0 +1,71 @@
+.chartContainer {
+  height: 400px; /* Fixed height, adjust as needed */
+  margin: 0 auto; /* Center the chart */
+  background-color: #00000034;
+  padding: 32px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.optionButton {
+  position: absolute;
+  top: 7%;
+  right: 24px;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  gap: 18px;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.optionButton select {
+  background-color: #18325d;
+  padding: 6px 8px;
+  border-radius: 12px;
+  color: #fff;
+  border: none;
+}
+
+.optionButton button {
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 20px !important;
+  display: flex;
+  align-items: center;
+  background-color: #18325d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.optionButton select option {
+  font-family: "Afacad Flux";
+}
+
+.menuBar {
+  position: absolute;
+  top: 15%;
+  right: 1%;
+  background-color: #0e1a2d;
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .chartContainer {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: none; /* Remove the max-width constraint */
+    height: 300px; /* Optional: Adjust height for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .chartContainer {
+    height: 250px; /* Further reduce height on very small screens */
+  }
+}

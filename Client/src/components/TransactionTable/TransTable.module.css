@@ -1,0 +1,106 @@
+.transactionTable {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  background-color: #121638; /* Dark blue background to match your dashboard */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden;
+}
+
+.menuBar {
+  position: absolute;
+  top: 12%;
+  right: 1%;
+  background-color: #0e1a2d;
+  padding: 10px;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.menuBar li {
+  cursor: pointer;
+}
+
+.selected {
+  color: gold !important;
+}
+
+.tableContainer {
+  position: relative;
+}
+
+.optionButton {
+  position: absolute;
+  top: 3%;
+  right: 12px;
+  font-size: 18px;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.transactionTable thead th {
+  background-color: #131333; /* Slightly darker background for headers */
+  color: white; /* White text for better visibility */
+  padding: 12px 20px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.transactionTable thead th:first-child {
+  width: 70px;
+}
+
+.transactionTable thead th:last-child {
+  text-align: center;
+}
+
+.transactionTable tbody tr td:first-child {
+  width: 70px;
+}
+
+.transactionTable tbody {
+  display: block; /* Make tbody block to enable scrolling */
+  height: 350px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.transactionTable tr {
+  display: table; /* Necessary for proper display */
+  table-layout: fixed; /* Prevents table layout from changing */
+  width: 100%; /* Ensures full width */
+}
+
+.transactionTable th,
+.transactionTable td {
+  border: none; /* Remove borders */
+  padding: 12px 20px;
+  color: white; /* White text for better visibility */
+}
+
+.transactionTable tr:nth-child(odd) {
+  background-color: #232654; /* Lighter row color for alternating effect */
+}
+
+.transactionTable tr:hover {
+  background-color: #2d2f5c; /* Hover effect with a lighter shade */
+}
+
+.transactionTable td {
+  color: #f0f0f0; /* Light gray color for text in the rows */
+}
+
+.transactionTable td:first-child {
+  font-weight: bold; /* Bold for the first column (No) */
+}
+
+.transactionTable td:last-child {
+  text-align: center; /* Center the TransType column */
+}
+
+/* Hide scrollbar */
+.transactionTable tbody::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for WebKit browsers */
+}

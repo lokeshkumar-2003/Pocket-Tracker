@@ -1,0 +1,15 @@
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  border-radius: 20px;
+}
+
+.chartCard {
+  background-color: #00000034; /* Optional: Add background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding around the chart */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}

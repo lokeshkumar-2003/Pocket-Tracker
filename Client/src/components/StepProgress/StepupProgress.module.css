@@ -1,0 +1,55 @@
+.stepperWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stepperItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  padding: 10px;
+}
+
+.stepCounter {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #ddd;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.stepName {
+  font-size: 12px;
+  text-align: center;
+}
+
+.active .stepCounter {
+  background-color: #4481eb; /* Color for active step */
+  color: white;
+}
+
+.stepperItem:before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 50%;
+  height: 2px;
+  width: 100%;
+  background-color: #ddd;
+  z-index: -1;
+}
+
+.stepperItem:first-child:before {
+  display: none;
+}
+
+.active:before {
+  background-color: #4481eb; /* Color for active step line */
+}
