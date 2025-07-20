@@ -52,7 +52,7 @@
 
   <h2>Project</h2>
   <h3>Login Page</h3>
-  <img src="https://raw.githubusercontent.com/lokeshkumar-2003/Easyfix/refs/heads/main/1730540756497.jpeg" height="200px" width="400px"/>
+  (demo/login.jpg)
   <h3>Dashboard Page</h3>
   <img src="https://raw.githubusercontent.com/lokeshkumar-2003/Easyfix/refs/heads/main/Screenshot%20(121).png" height="200px" width="400px"/>
    <h3>Report Documents</h3>
