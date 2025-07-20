@@ -52,11 +52,20 @@
 
   <h2>Project</h2>
   <h3>Login Page</h3>
-   ![Auth](demo/login.jpg)
-  <h3>Dashboard Page</h3>
-  <img src="https://raw.githubusercontent.com/lokeshkumar-2003/Easyfix/refs/heads/main/Screenshot%20(121).png" height="200px" width="400px"/>
-   <h3>Report Documents</h3>
-  <img src="https://raw.githubusercontent.com/lokeshkumar-2003/Easyfix/refs/heads/main/Screenshot%20(123).png" height="200px" width="400px"/>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/signin.png" height="200px" width="400px"/>
+  <h3>Signup Page</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/signup.png" height="200px" width="400px"/>
+  <h3>Dashboard</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/dashboard.png" height="200px" width="400px"/>
+  <h3>Filter chart</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/filters.png" height="200px" width="400px"/>
+  <h3>Transaction history</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/transaction_history.png" height="200px" width="400px"/>
+ <h3>Transaction Per Month</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/transaction_month.png" height="200px" width="400px"/>
+ <h3>Download Receipt</h3>
+  <img src="https://github.com/lokeshkumar-2003/Pocket-Tracker/blob/main/demo/download_transaction_recipt.png" height="200px" width="400px"/>
+
 
   <h2>License</h2>
   <p>This project is licensed under the <strong>MIT License</strong>.</p>
